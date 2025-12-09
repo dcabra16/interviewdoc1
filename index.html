@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Documentation</title>
+    <link rel="stylesheet" href="css/design-system.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5f1eb 0%, #e8ddd4 100%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: var(--color-surface-primary);
+            border-radius: 15px;
+            box-shadow: var(--shadow-lg);
+            overflow: hidden;
+        }
+
+        /* TEAL HEADER */
+        .header {
+            background: linear-gradient(135deg, #0F766E, #14B8A6);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            border: 2px solid rgba(255,255,255,0.3);
+            border-radius: 8px;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            backdrop-filter: blur(10px);
+            transition: 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .back-button:hover {
+            background: rgba(255,255,255,0.3);
+            border-color: rgba(255,255,255,0.5);
+            transform: translateY(-2px);
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        h2.section-title {
+            color: #0F766E;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        /* TABLE STYLES */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            background: white;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+        }
+
+        th {
+            background: #0F766E;
+            color: white;
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+            font-size: 16px;
+        }
+
+        td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            vertical-align: top;
+            color: #444;
+        }
+
+        tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+    <div class="header">
+        <a href="https://dcabra16.github.io/project_closure_website/" class="back-button">← Back</a>
+        <h1>Interview Documentation</h1>
+        <p>Tracking progress, performance, and insights throughout the job search process.</p>
+    </div>
+
+    <div class="content">
+        <h2 class="section-title">Interview Tracker</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Interview Type</th>
+                    <th>Company / Position</th>
+                    <th>What Went Well</th>
+                    <th>What Could Improve</th>
+                    <th>Next Steps</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <!-- SAMPLE ROW (You may delete this) -->
+                <tr>
+                    <td>MM/DD/YYYY</td>
+                    <td>Phone Screening</td>
+                    <td>Company Name — IT Support</td>
+                    <td>I answered the technical questions clearly and connected my class experience well.</td>
+                    <td>I hesitated when asked about experience with certain tools.</td>
+                    <td>Practice tool-specific examples and send a follow-up thank-you email.</td>
+                </tr>
+
+                <!-- Empty rows to fill in -->
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+</div>
+</body>
+</html>
